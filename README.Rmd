@@ -1,0 +1,19 @@
+---
+title: "Appex 10"
+author: "Lucy D'Agostino McGowan"
+output: github_document
+date: '2022-03-23'
+---
+
+```{r, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(MatchIt)
+library(broom)
+library(smd)
+#install.packages("smd")
+```
+
+```{r, message = FALSE, warning = FALSE}
+customer_satisfaction <- read_csv("customer_satisfaction.csv")
+```
+
